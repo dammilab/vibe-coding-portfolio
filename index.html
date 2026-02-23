@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dammi's Sweet works | dammi works</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a href="#home" class="logo">Dammi's Sweet
+        WORKs</a>
+      <button class="nav-toggle" aria-label="메뉴 열기">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">HOME</a></li>
+        <li><a href="#work">WORKs</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        
+        <li><a href="https://www.instagram.com/ig_dammi/">INSTAGRAM</a></li>
+        <li><a href="https://blog.naver.com/damjain/224185140082">BLOG</a></li>
+        <li><a href="https://www.youtube.com/@dammi45">YOUTUBE</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-inner">
+        <div class="hero-image-wrap">
+          <img
+            src="hero.PNG"
+            alt="Lauren Hom - designer and lettering artist at work"
+            class="hero-image"
+          />
+        </div>
+        <div class="hero-content">
+          <h1 class="hero-title">
+            <span class="hero-title-light">안녕하세요! 저는</span>
+            <span class="hero-title-name">"담이" 입니다.</span>
+          </h1>
+          <p class="hero-desc">
+            저는 <strong>강아지 모델과 인플루언서로 활동하고 있습니다.</strong> 제가 하는 일과 활동이 궁금하시면 아래 버튼을 눌러 더 알아보세요요.
+          </p>
+          <a href="#work" class="btn-cta">TELL ME MORE!</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="portfolio-section">
+      <div class="container">
+        <div class="portfolio-header">
+          <h2 class="portfolio-title">Portfolio</h2>
+          <p class="portfolio-subtitle">여러 장소에서 담이가 함께한 순간들을 카테고리별로 모았어요.</p>
+        </div>
+
+        <div class="portfolio-filters" aria-label="포트폴리오 카테고리">
+          <button type="button" class="filter-btn is-active" data-filter="all">ALL</button>
+          <button type="button" class="filter-btn" data-filter="sea">SEA</button>
+          <button type="button" class="filter-btn" data-filter="city">CITY</button>
+          <button type="button" class="filter-btn" data-filter="nature">NATURE</button>
+          <button type="button" class="filter-btn" data-filter="daily">DAILY</button>
+          <button type="button" class="filter-btn" data-filter="fashion">FASHION</button>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="portfolio-card" data-category="sea fashion">
+            <img src="hero.PNG" alt="바다와 해변에서 청바지를 입고 있는 담이" class="portfolio-image" />
+            <div class="portfolio-card-body">
+              <h3 class="portfolio-card-title">Sea & Denim</h3>
+              <p class="portfolio-card-meta">SEA · FASHION</p>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-category="sea daily">
+            <img src="d2.PNG" alt="바다를 배경으로 안겨 있는 담이" class="portfolio-image" />
+            <div class="portfolio-card-body">
+              <h3 class="portfolio-card-title">Ocean Hug</h3>
+              <p class="portfolio-card-meta">SEA · DAILY</p>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-category="nature daily">
+            <img src="d3.PNG" alt="초원과 무지개를 배경으로 한 담이" class="portfolio-image" />
+            <div class="portfolio-card-body">
+              <h3 class="portfolio-card-title">Rainbow Field</h3>
+              <p class="portfolio-card-meta">NATURE · DAILY</p>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-category="city daily">
+            <img src="d4.PNG" alt="도시 전경을 내려다보는 담이" class="portfolio-image" />
+            <div class="portfolio-card-body">
+              <h3 class="portfolio-card-title">City View Walk</h3>
+              <p class="portfolio-card-meta">CITY · DAILY</p>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-category="nature daily">
+            <img src="d5.PNG" alt="잔디밭 위에서 뒹구는 담이" class="portfolio-image" />
+            <div class="portfolio-card-body">
+              <h3 class="portfolio-card-title">Rolling in Green</h3>
+              <p class="portfolio-card-meta">NATURE · DAILY</p>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-category="daily">
+            <img src="d6.PNG" alt="품 안에서 잠든 담이" class="portfolio-image" />
+            <div class="portfolio-card-body">
+              <h3 class="portfolio-card-title">Soft Nap</h3>
+              <p class="portfolio-card-meta">DAILY</p>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-category="city fashion">
+            <img src="d7.PNG" alt="도시 조형물 앞에서 포즈를 취하는 담이" class="portfolio-image" />
+            <div class="portfolio-card-body">
+              <h3 class="portfolio-card-title">Urban Shine</h3>
+              <p class="portfolio-card-meta">CITY · FASHION</p>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-category="daily fashion">
+            <img src="d8.PNG" alt="체크무늬 옷을 입고 앉아 있는 담이" class="portfolio-image" />
+            <div class="portfolio-card-body">
+              <h3 class="portfolio-card-title">Check Style</h3>
+              <p class="portfolio-card-meta">DAILY · FASHION</p>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-category="daily fashion">
+            <img src="d9.PNG" alt="분홍색 소파 위에서 줄무늬 니트를 입고 앉아 있는 담이" class="portfolio-image" />
+            <div class="portfolio-card-body">
+              <h3 class="portfolio-card-title">Cozy Stripes</h3>
+              <p class="portfolio-card-meta">DAILY · FASHION</p>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-category="city fashion">
+            <img src="d10.PNG" alt="계단 위에서 멜빵 청바지를 입고 뒤를 돌아보는 담이" class="portfolio-image" />
+            <div class="portfolio-card-body">
+              <h3 class="portfolio-card-title">Stair Look</h3>
+              <p class="portfolio-card-meta">CITY · FASHION</p>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-category="city daily">
+            <img src="d11.PNG" alt="노란 조형물 앞에서 누워 쉬고 있는 담이" class="portfolio-image" />
+            <div class="portfolio-card-body">
+              <h3 class="portfolio-card-title">Sunny Break</h3>
+              <p class="portfolio-card-meta">CITY · DAILY</p>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-category="sea daily">
+            <img src="d12.PNG" alt="바닷가 산책로에서 바다를 바라보고 있는 담이" class="portfolio-image" />
+            <div class="portfolio-card-body">
+              <h3 class="portfolio-card-title">Harbor Walk</h3>
+              <p class="portfolio-card-meta">SEA · DAILY</p>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-category="city daily">
+            <img src="d13.PNG" alt="석탑과 전통 정원을 바라보는 담이" class="portfolio-image" />
+            <div class="portfolio-card-body">
+              <h3 class="portfolio-card-title">Temple Garden</h3>
+              <p class="portfolio-card-meta">CITY · DAILY</p>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-category="nature daily">
+            <img src="d14.PNG" alt="노란 꽃이 핀 정원길을 산책하는 담이" class="portfolio-image" />
+            <div class="portfolio-card-body">
+              <h3 class="portfolio-card-title">Flower Path</h3>
+              <p class="portfolio-card-meta">NATURE · DAILY</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 이미지 뷰어(모달) -->
+    <div class="lightbox" aria-hidden="true">
+      <div class="lightbox-backdrop"></div>
+      <figure class="lightbox-content" role="dialog" aria-modal="true">
+        <button type="button" class="lightbox-close" aria-label="닫기">×</button>
+        <img src="" alt="" class="lightbox-image" />
+        <figcaption class="lightbox-caption"></figcaption>
+      </figure>
+    </div>
+
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="about-inner">
+          <div class="about-image-wrap">
+            <img src="hero.PNG" alt="담이 프로필" class="about-image" />
+          </div>
+          <div class="about-content">
+            <h2 class="about-title">ABOUT dammi</h2>
+            <dl class="about-info">
+              <dt>이름</dt>
+              <dd>담이 (dammi)</dd>
+              <dt>견종</dt>
+              <dd>아이쥐 (Italian Greyhound)</dd>
+              <dt>나이</dt>
+              <dd>8살</dd>
+              <dt>생일</dt>
+              <dd>2017.09월</dd>
+              <dt>성격</dt>
+              <dd>차분하고 일과 간식을 사랑하며 사람을 잘 따름</dd>
+              <dt>활동</dt>
+              <dd>
+                <ul class="about-activities">
+                  <li>강아지 패션모델</li>
+                  <li>SNS 인플루언서</li>
+                  <li>Youtube 채널 운영</li>
+                  <li>Naver 애견동반 담이여행 블로거</li>
+                </ul>
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="clients-section">
+      <div class="container">
+        <h2 class="clients-headline">
+          저는 강아지 모델로 여러 매체에서 활동하고 있습니다. 저의 works을 더 알아보시려면 상단 SNS카테고리를 클릭해주세요.
+        </h2>
+        <div class="clients-logos">
+          <h2 class="client-logo-title">협업 파트너</h2>
+          <span class="client-logo" aria-label="ig passion">IG fashion</span>
+          <span class="client-logo" aria-label="댕댕이여행행">댕댕이여행</span>
+          <span class="client-logo" aria-label="YouTube">YouTube</span>
+          <span class="client-logo" aria-label="담이의옷방방">담이의옷방</span>
+          <span class="client-logo" aria-label="자연담은도시락">자연담은도시락</span>
+          <span class="client-logo" aria-label="팅커벨프로젝트">팅커벨프로젝트</span>
+          <span class="client-logo" aria-label="bringmehome">bringmehome</span>
+        
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
